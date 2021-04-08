@@ -1,0 +1,13 @@
+.mountains {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -100 !important;
+}
+
+.mountains > img {
+    width: 130%;
+    transform: translateY(120px);
+    z-index: -100;
+}
